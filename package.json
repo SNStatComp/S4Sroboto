@@ -1,45 +1,25 @@
 {
-  "name": "roboto",
-  "version": "0.8.2",
-  "description": "A web crawler for Nodejs.",
+  "name": "S4Scrawler",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jculvey/roboto.git"
-  },
-  "keywords": [
-    "crawler",
-    "crawling",
-    "spider",
-    "spidering",
-    "scraping",
-    "scraper",
-    "robot",
-    "bot",
-    "cheerio"
-  ],
-  "author": "jculvey",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "jsdoc2md ./lib/S4Scrawler.js --param-list-format list > api.md"
+ },
+  "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jculvey/roboto/issues"
-  },
   "dependencies": {
-    "cheerio": "~0.17.0",
-    "request": "~2.40.0",
     "async": "~0.9.0",
-    "utils-merge": "~1.0.0",
-    "underscore": "~1.6.0",
+    "cheerio": "~0.17.0",
+    "elasticsearch": ">5.0.0",
+    "fast-csv": "^0.6.0",
     "log": "~1.4.0",
-    "solr": "~0.2.2",
     "moment": "~2.8.1",
-    "tldjs": "~1.5.0"
-  },
-  "devDependencies": {
-    "htmlstrip-native": "0.0.2",
-    "express": "~4.8.3",
-    "robots.txt": "~1.0.0"
+    "request": "~2.40.0",
+    "solr": "~0.2.2",
+    "tldjs": "~1.5.0",
+    "underscore": "~1.6.0",
+    "utils-merge": "~1.0.0"
   }
 }
