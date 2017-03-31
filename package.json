@@ -1,28 +1,27 @@
 {
   "name": "S4Scrawler",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs": "jsdoc2md ./lib/S4Scrawler.js -p list -r list --plugin dmd-clear > api.md"
+    "docs": "documentation build 'lib/S4Scrawler.js' -f md > api3.md"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "async": "~0.9.0",
-    "cheerio": "~0.17.0",
-    "elasticsearch": ">5.0.0",
-    "fast-csv": "^0.6.0",
-    "log": "~1.4.0",
-    "moment": "~2.8.1",
-    "request": "~2.40.0",
-    "solr": "~0.2.2",
-    "tldjs": "~1.5.0",
-    "underscore": "~1.6.0",
-    "utils-merge": "~1.0.0"
+    "async": ">=0.9.0",
+    "cheerio": ">=0.17.0",
+    "elasticsearch": ">=5.0.0",
+    "log": ">=1.4.0",
+    "moment": ">=2.8.1",
+    "request": ">=2.40.0",
+    "solr": ">=0.2.2",
+    "tldjs": ">=1.5.0",
+    "underscore": ">=1.6.0",
+    "utils-merge": ">=1.0.0"
   },
   "devDependencies": {
-    "dmd-clear": "^0.1.2"
+    "dmd-clear": ">=0.1.2"
   }
 }
