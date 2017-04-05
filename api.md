@@ -71,7 +71,7 @@ Crawl pages from a website starting with given url
 
 -   `siteId` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** identification of the site being crawled
 -   `search` **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** Used to select the links to crawl next
--   `maxLinks` **integer** Maximum number of selected links
+-   `maxLinks` **(integer | `""`)** Maximum number of selected links, "" = all links
 
 Returns **([Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) \| [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String))** A promise containing a success or an error message
 
